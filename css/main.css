@@ -1,0 +1,50 @@
+body {
+  overflow: hidden;
+  margin: 0;
+  padding: 0;
+}
+canvas {
+  border: 1px solid #000000;
+  height: 100%;
+  width: 100%;
+}
+
+#canvasManager {
+  position: relative;
+  margin: 0 auto;
+}
+
+#background {
+  background-image: url("../image/background.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  z-index: 0;
+}
+
+#LeeSin {
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 1;
+}
+#Skill {
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 2;
+  /* background: url("/image/snow.jpg"); */
+}
+#UI {
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 3;
+}
+#text {
+  position: absolute;
+  top: 0;
+  left: 100px;
+  color: white;
+  font-size: 24px;
+  z-index: 10;
+}

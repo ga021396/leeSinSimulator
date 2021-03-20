@@ -1,16 +1,24 @@
 ﻿<!DOCTYPE html>
-<html oncontextmenu="return false" >
-	<head>
-		<link rel=stylesheet type="text/css" href="css/test.css">
-		<script src="javascript/test.js"></script>
-	</head>
-	<body onload="gameload();">
-		
-		<div id='canvasManager'>
-			<canvas id="background"></canvas>
-			<canvas id="LeeSin"></canvas>
-			<canvas id="Skill"></canvas>
-			<canvas id="UI"></canvas>
-		</div>
-	</body>
+<html oncontextmenu="return false">
+  <head>
+    <link rel="stylesheet" type="text/css" href="css/test.css" />
+    <script src="javascript/test.js"></script>
+  </head>
+  <body onload="gameload();">
+    <div id="canvasManager">
+      <div id="text">RB大腳一踹模擬器 - 4:插眼 W:摸眼 R:大絕</div>
+      <canvas id="background"></canvas>
+      <canvas id="LeeSin"></canvas>
+      <canvas id="Skill"></canvas>
+      <canvas id="UI"></canvas>
+      <img src="./image/snow.png" hidden id="snow" />
+      <img
+        src="./image/bbbb87.png"
+        hidden
+        id="bbbb87"
+        height="1024"
+        width="1024"
+      />
+    </div>
+  </body>
 </html>
